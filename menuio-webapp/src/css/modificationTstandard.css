@@ -1,0 +1,56 @@
+.modifstandard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.hoverme {
+    visibility: hidden;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.logo:hover .hoverme {
+    visibility: visible;
+}
+
+.imgMenu:hover .hoverme {
+    visibility: visible;
+}
+
+.modifstandard h3 {
+    text-align: center;
+}
+
+.headermodifstandard {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+    height: 20%;
+}
+
+.bodymodifstandard {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btns {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.imgMenu :hover {
+    cursor: pointer;
+}

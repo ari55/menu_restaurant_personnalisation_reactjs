@@ -1,0 +1,104 @@
+.classiquecontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+}
+
+.classic {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.headerclassic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 10%;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.monlogo {}
+
+.logo {
+    align-self: center;
+}
+
+.panier {
+    align-self: flex-end;
+    border: 1px violet;
+}
+
+.panier img {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 20%;
+    /* margin-left: 500px;*/
+}
+
+.navigation {
+    border: 1px solid black;
+    height: 10%;
+    margin-bottom: 5px;
+}
+
+.navigation ul {
+    margin-top: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bodyclassic {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-left: 35px 0px 35px;
+}
+
+.section {
+    border-bottom: 1px solid black;
+}
+
+.bodyclassic h3 {
+    /**text-align: center;*/
+    margin-left: 150px;
+}
+
+.bodyclassic h2 {
+    /**text-align: center;*/
+    /*   margin-left: 150px;*/
+    margin-bottom: 20px;
+}
+
+.classicproduit {
+    display: inline-flex;
+}
+
+.classicproduit p {
+    margin-left: 50px;
+}
+
+.classicproduit p:first-child {
+    font-weight: bold;
+}
+
+.classicproduit button {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    height: 40px;
+}

@@ -1,0 +1,22 @@
+/*.logoHeader {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.logoHeader {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.logoHeader img {
+    width: 250px;
+}
+
+#dropdown-basic {
+    margin-left: 800%;
+    margin-top: 50%;
+}
+
+/* INSERT INTO serveur (nom, prenom, email,telephone, addresse, passwords, date_enregistrement,statut_connexion, idrestaurant )VALUES (Ali, Baba, alibaba@gmail.com, 123456,1056-av-germain, ali,2020-12-10,false,1); */

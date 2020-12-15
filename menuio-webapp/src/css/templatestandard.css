@@ -1,0 +1,66 @@
+.imgMenu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.categoriestandard {
+    /*  border-right: 1px solid black;*/
+    width: 45%;
+}
+
+.hr {
+    border-right: 3px solid black;
+    height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.standardproduit {
+    display: inline-flex;
+}
+
+.standardproduit p {
+    margin-left: 2px;
+}
+
+.standardproduit p:first-child {
+    font-weight: bold;
+}
+
+.standardproduit p:nth-child(2) {
+    margin-left: 20px;
+}
+
+.standardproduit button {
+    margin-left: 2px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+}
+
+.sectionstandard {
+    border-bottom: 0px solid black;
+}
+
+.sectionstandard {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.categories>*:last-child {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.categories EdiText {
+    width: 100%;
+}

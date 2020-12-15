@@ -1,0 +1,24 @@
+.classicUn {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.headerclassicUn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 10%;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.headerclassicUn:before {}
+
+.classicUn:before {}

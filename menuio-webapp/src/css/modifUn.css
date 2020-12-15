@@ -1,0 +1,157 @@
+.standardproduitUn {
+    display: inline-flex;
+    width: 100%;
+}
+
+.headerclassic {
+    cursor: pointer;
+}
+
+.headerclassic:before {}
+
+.classic:before {}
+
+.btnInputColor {
+    display: none;
+}
+
+.file {
+    font-size: 6pt;
+    width: 35px;
+}
+
+.panierheader {
+    margin-bottom: 135px;
+}
+
+.btnInputColorheader {
+    display: none;
+}
+
+.btnInputColor input:focus {
+    display: block;
+}
+
+.btnInputColorheader input:focus {
+    display: block;
+}
+
+.classic:hover .btnInputColor {
+    display: block;
+}
+
+/* .headerclassic:hover .btnInputColorheader {
+    display: block;
+} */
+
+.standardproduitUn button {
+    width: 10px;
+    height: 10px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.partie1 {
+    width: 65%;
+}
+
+.partie2 {
+    width: 35%;
+}
+
+.standardproduitUn p {}
+
+.standardproduitUn p:first-child {
+    font-weight: bold;
+}
+
+.standardproduitUn p:nth-child(2) {
+    margin-left: 20px;
+}
+
+.categories>*:last-child h2 {
+    margin-left: 90px;
+}
+
+.categoriestandardUn {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.categorietitle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btnSupprimer {
+    width: 10px;
+    height: 10px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.btnEditer {
+    height: 10px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.categoriestandardUn:nth-child(odd) {
+    border-right: 1px solid black;
+    border-bottom: 1px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: this.props.id;*/
+}
+
+.categoriestandard:nth-child(odd) h2 {}
+
+.categories:nth-last-child(2) {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.btnModifUn {
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.btnModifUn button {
+    border-radius: 50%;
+}
+
+.prix {
+    margin-right: 32px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nom {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.deletebtn {
+    border-radius: 0%;
+}
+
+.sectionstandarUn {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+}

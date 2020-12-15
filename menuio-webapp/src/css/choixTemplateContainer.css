@@ -1,0 +1,35 @@
+.choix {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.choix h3 {
+    text-align: center;
+}
+
+.headerChoix {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+    height: 20%;
+}
+
+.bodyChoix {
+    display: flex;
+    flex-direction: row;
+    height: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.choix1 {
+    margin: 10px;
+}
+
+.choix2 {
+    margin: 10px;
+}
